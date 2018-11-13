@@ -14,7 +14,7 @@ module.exports = async function (context) {
     context.log(`repacks data add jobs to queue`)
     context.bindings.mySbQueue = data
       .map(repackData)
-      .map(item => Object.assign({}, { id: item.id, payload: item }))[0]
+      .map(item => Object.assign({}, { id: item.id, payload: item }))
   } else {
     context.log(`Nothing to index`)
   }
