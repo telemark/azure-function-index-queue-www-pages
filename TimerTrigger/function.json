@@ -11,7 +11,7 @@
       "name": "mySbQueue",
       "type": "serviceBus",
       "direction": "out",
-      "queueName": "testqueuejobs",
+      "queueName": "wwwindexqueue",
       "connection": "SERVICEBUS_CONNECTION"
     }
   ]
