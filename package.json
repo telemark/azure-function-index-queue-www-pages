@@ -56,7 +56,7 @@
   "dependencies": {
     "axios": "0.18.0",
     "jsonwebtoken": "8.5.1",
-    "uuid-random": "1.0.7",
+    "uuid-random": "1.0.8",
     "xml2js": "0.4.19"
   }
 }
